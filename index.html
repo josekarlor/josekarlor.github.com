@@ -1,9 +1,58 @@
-<head>
-	<title>My first website</title>
-</head>
-<body>
-	<div>
-		<p>Hello World!</p>
-	</div>
-</body>
+<!doctype html>
+<html>
+	<head>
+		<title>Test website</title>
+		<link href="styles/main.css" rel="stylesheet" type="text/css">
+	</head>
+	
+	<body>
+		<h1>My First Website</h1>
+		<h3>Panel selector</h3>
+		
+		<div class="tab-panels">
+			<ul class="tabs">
+				<li data-panelid="panel1" class="first">panel1</li>
+				<li data-panelid="panel2">panel2</li>
+				<li data-panelid="panel3" class="active">panel3</li>
+				<li data-panelid="panel4">panel4</li>
+			</ul>
+			
+			<div id="panel1" class="panel">
+				<p>content1</p>
+				<p>content1</p>
+				<p>content1</p>
+				<p>content1</p>
+			</div>
+			
+			<div id="panel2" class="panel">
+				<p>content2</p>
+				<p>content2</p>
+				<p>content2</p>
+				<p>content2</p>
+			</div>
+			
+			<div id="panel3" class="panel active">
+				<p>content3</p>
+				<p>content3</p>
+				<p>content3</p>
+				<p>content3</p>
+			</div>
+			
+			<div id="panel4" class="panel">
+				<p>content4</p>
+				<p>content4</p>
+				<p>content4</p>
+				<p>content4</p>
+			</div>
+			
+			
+			
+			<script src="jquery/jquery-2.1.1.min.js"></script>
+			<script src="javascript/panelSelector.js"></script>
+			
+			
+			
+		</div>
+	</body>
 
+</html>

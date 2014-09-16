@@ -1,0 +1,85 @@
+body {
+	background-color: #D4DAEB;
+	margin: 10px;
+	font-family: arial;
+}
+
+h1, h2, h3 {
+	margin: 10px 20%;
+
+}
+
+
+.panel p {
+	margin: 0;
+	padding: 0 0 0 30px;
+}
+
+div.tab-panels {
+ 	margin: 0 20%;
+	background-color: white;
+}
+
+.tab-panels ul {
+/* 	margin: 0 20%;
+	padding: 0; */
+
+ 	margin: 0 2%;
+	padding: 4 0 2 0;
+	background-color: white;
+	border-bottom-color: #D4DAEB;
+	border-bottom-style: solid;
+	border-bottom-width: 1px;
+
+ }
+
+.tab-panels ul li {
+	list-style-type: none;
+	display: inline-block;
+	background: white;
+	margin: 0;
+	padding: 3px 10px;
+	/* border-radius: 10px 10px 0 0; */
+	color: black;
+	font-weight: 200;
+	cursor: pointer;
+	
+	border-left-color: #D4DAEB;
+	border-left-style: solid;
+	border-left-width: 1px;
+
+}
+
+.tab-panels ul li.first {
+	border: 0;
+
+}
+
+
+.tab-panels ul li:hover {
+	color: #fff;
+	background: #999;
+
+}
+
+.tab-panels ul li.active {
+	color: #fff;
+	background: #666;
+
+}
+
+.tab-panels .panel {
+	display: none;
+	/* background: #c9c9c9; */
+	background: white;
+	padding: 15px 0px;
+	/* margin: 0 20%; */
+	border-radius: 0 0 10px 10px;
+
+}
+
+.tab-panels .panel.active {
+	display:block;
+
+}
+
